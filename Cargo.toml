@@ -20,3 +20,14 @@ members = [
     "frc46_factory_token",
     "frc46_factory_token/token_impl"
 ]
+
+[patch."https://github.com/filecoin-project/ref-fvm"]
+fvm_shared = { path = "../../ref-fvm/shared" }
+fvm_sdk = { path = "../../ref-fvm/sdk" }
+fvm_ipld_hamt = { path = "../../ref-fvm/ipld/hamt" }
+fvm_ipld_kamt = { path = "../../ref-fvm/ipld/kamt" }
+fvm_ipld_amt = { path = "../../ref-fvm/ipld/amt" }
+fvm_ipld_bitfield = { path = "../../ref-fvm/ipld/bitfield"}
+fvm_ipld_encoding = { path = "../../ref-fvm/ipld/encoding"}
+fvm_ipld_blockstore = { path = "../../ref-fvm/ipld/blockstore"}
+
